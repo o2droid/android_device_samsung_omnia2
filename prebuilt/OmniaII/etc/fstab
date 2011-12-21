@@ -1,0 +1,2 @@
+#/dev/block/mmcblk1p7 swap                 swap       defaults              0 0
+/dev/block/mmcblk0p3 swap                 swap       defaults              0 0
