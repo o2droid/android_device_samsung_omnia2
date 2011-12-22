@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 
 #Camera files
 PRODUCT_COPY_FILES += \
-    device/samsung/OmniaII/prebuilt/OmniaII/camera/libcamera.so:system/lib/libcamera.so\
+    device/samsung/OmniaII/camera/libcamera.so:system/lib/libcamera.so\
     device/samsung/OmniaII/prebuilt/OmniaII/camera/libcameraservice.so:system/lib/libcameraservice.so\
     device/samsung/OmniaII/prebuilt/OmniaII/camera/libcamera_client.so:system/lib/libcamera_client.so\
     device/samsung/OmniaII/prebuilt/OmniaII/camera/Camera.apk:system/app/Camera.apk
