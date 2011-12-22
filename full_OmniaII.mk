@@ -32,8 +32,16 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml 
 
 # media config xml file
+#PRODUCT_COPY_FILES += \
+#    device/samsung/OmniaII/media_profiles.xml:system/etc/media_profiles.xml
+
+#Camera files
 PRODUCT_COPY_FILES += \
-    device/samsung/OmniaII/media_profiles.xml:system/etc/media_profiles.xml
+    device/samsung/OmniaII/prebuilt/OmniaII/camera/libcamera.so:system/lib/libcamera.so\
+    device/samsung/OmniaII/prebuilt/OmniaII/camera/libcameraservice.so:system/lib/libcameraservice.so\
+    device/samsung/OmniaII/prebuilt/OmniaII/camera/libcamera_client.so:system/lib/libcamera_client.so\
+    device/samsung/OmniaII/prebuilt/OmniaII/camera/Camera.apk:system/app/Camera.apk
+
 
 #
 # Wifi
